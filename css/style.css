@@ -1,0 +1,28 @@
+.navigation{
+    display: inline-block;
+    margin-left: 10%;
+}
+.li-item{
+    display: inline-block;
+    padding: 20px 20px;
+}
+.header-container{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    padding: 20px ;
+    padding-left: 15%;
+}
+
+#conclution{
+    background-color: #6B77E5;
+    
+
+}
+.whitecollar{
+    text-decoration: none;
+    font-size: 20px;
+    color: #37393F;
+    font-weight:700;
+}
