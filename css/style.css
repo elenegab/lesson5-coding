@@ -26,3 +26,105 @@
     color: #37393F;
     font-weight:700;
 }
+header{
+    height: 150px;
+}
+.parent-box{
+    display: flex;
+    align-items: center;
+    position: relative;
+    height: 300px;
+    width: 1000px;
+    margin-left: 13%;
+}
+.child-box{
+    width: 333px;
+    text-align: center;
+    padding: 20px;  
+    background-color: #F4F4F4;
+    margin: 20px;
+
+
+}
+.little-text{
+    margin-left: 45%;
+}
+h3{
+    color: #6B77E5;
+}
+p{
+    color: #7D7D7D;
+}
+.rectangle{
+    
+    width: 100%;
+    left: 0;
+    right: 0;
+    margin: 20px 0 20px 0;
+}
+.big-box{
+    position: relative;
+
+}
+.video{
+    position: absolute;
+    width: 300px;
+    text-align: center;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+
+}
+
+.parent-persons{
+    display: flex;
+    position: relative;
+    height: 200px;
+    width: 1000px;
+    margin-left: 10%;
+    
+}
+.child-persons{
+    width: 333px;
+    text-align: center;
+    padding: 20px;  
+    background-color: #F4F4F4;
+    margin: 20px;
+}
+.team{
+    margin-left: 43%;
+}
+
+.natasha{
+    position: absolute;
+    width: 300px;
+    text-align: center;
+    left: 16.5%;
+    top: 50%;
+    transform: translate(-50%, 160%);
+    background-color: white;
+    width: 200px;
+    height: 90px;
+}
+.david{
+    position: absolute;
+    width: 300px;
+    text-align: center;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, 160%);
+    background-color: white;
+    width: 200px;
+    height: 90px;
+}
+.made{
+    position: absolute;
+    width: 300px;
+    text-align: center;
+    left: 83%;
+    top: 50%;
+    transform: translate(-50%, 160%);
+    background-color: white;
+    width: 200px;
+    height: 90px;
+}
